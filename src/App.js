@@ -11,6 +11,7 @@ const Features = lazy(() => import('./Features'));
 const Login = lazy(() => import('./Login'));
 const YourProfil= lazy(() => import('./YourProfil'));
 const DetailProduct= lazy(() => import('./DetailProduct'));
+const JsonExt= lazy(() => import('./jsonExt'));
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Login" element={<Login/>} />
         <Route path="/YourProfil" element={<YourProfil/>} />
         <Route path="/DetailProduct" element={<DetailProduct/>} />
+        <Route path="/JsonExt" element={<JsonExt/>} />
 
       </Routes>
     </Suspense>

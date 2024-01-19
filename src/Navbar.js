@@ -6,7 +6,9 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Product', href: '/Product' },
   { name: 'Features', href: '/features'},
+  { name: 'JsonExternal', href: '/jsonExt'},
 ]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
